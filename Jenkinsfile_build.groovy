@@ -9,7 +9,7 @@ pipeline{
             steps{
                 println "clone a clode"
                 git branch: "${BRANCH}",
-                url: 'https://github.com/KuruvaSomaSekhar/nov21.git'
+                url: 'https://github.com/99yaswanth/boxfuse-sample-java-war-hello.git'
             }
         }
         stage("build code"){
