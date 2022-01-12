@@ -2,8 +2,8 @@ pipeline{
     agent any
     parameters{
         string(name: 'BRANCH' , defaultValue: 'master' , description: '')
-        string(name: 'serverip' , defaultValue: ' ' , description: '')
-        string(name: 'Buildno' , defaultValue: ' ' , description: '')
+        string(name: 'serverip' , defaultValue: '' , description: '')
+        string(name: 'Buildno' , defaultValue: '' , description: '')
 
     }
     stages{
